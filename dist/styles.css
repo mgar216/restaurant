@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    background-color: #9F4800;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#main {
+    align-self: center;
+    height: 100%;
+    width: 75%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#panel {
+    border-color: brown;
+    border-width: 1px;
+    border-style: dotted;
+    height: auto;
+    width: 97%;
+    margin-top: 1vh;
+    padding: 1vh 0 1vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#panel .button {
+    text-align: center;
+    padding: 1vh;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    width: 15vw;
+    font-size: 3vh;
+    color: brown;
+    user-select: none;
+    margin: auto 1vw auto 1vw;
+}
+
+#panel .button:hover{
+    background-color: brown;
+    color: white;
+}
+
+#header {
+    border-width: 1px;
+    border-color: brown;
+    border-radius: 50%;
+    height: 12vh;
+    width: 50%;
+    margin-top: 2vh;
+    text-align: center;
+    padding-top: 6vh;
+    font-size: 5vh;
+    color: brown;
+    font-family: cursive;
+}
+
+#body {
+    border-color: brown;
+    border-width: 1px;
+    border-style: dotted;
+    margin-top: 3vh;
+    height: 56vh;
+    width: 97%;
+}
+
+#footer {
+    border-color: brown;
+    border-width: 1px;
+    border-style: dotted;
+    margin-top: 1vh;
+    height: 9.5vh;
+    width: 97%;
+}
